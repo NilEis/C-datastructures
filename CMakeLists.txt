@@ -7,7 +7,7 @@ endif()
 
 add_library(datastructures ${CMAKE_CURRENT_SOURCE_DIR}/src/heap.c)
 
-target_include_directories(datastructures PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include/)
+target_include_directories(datastructures PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include/)
 
 option(example "Build examples" ON)
 
