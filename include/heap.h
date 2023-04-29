@@ -27,7 +27,7 @@ ds_heap_t *ds_heap_create(size_t initial_size,ds_heap_type_t type);
 
 ds_heap_t *ds_heap_insert(ds_heap_t *heap, int priority, void *value);
 
-ds_heap_element_t *ds_heap_get_max(ds_heap_t *heap);
+ds_heap_element_t *ds_heap_get_first(ds_heap_t *heap);
 
 ds_heap_t *ds_heap_remove_max(ds_heap_t *heap);
 
